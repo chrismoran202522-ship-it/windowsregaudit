@@ -1,0 +1,33 @@
+{
+  "name": "Program",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name of the program"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher / developer name"
+    },
+    "version": {
+      "type": "string",
+      "description": "Installed version"
+    },
+    "latest_version": {
+      "type": "string",
+      "description": "Latest available version from web"
+    },
+    "install_date": {
+      "type": "string",
+      "description": "Date the program was installed"
+    },
+    "install_location": {
+      "type": "string",
+      "description": "Path to installation directory"
+    },
+    "registry_key_path": {
+      "type": "string",
+      "description": "Full registry key path (e.g. HKLM\\SOFTWARE\\...)"
+    },
+    "registry_hive": {
